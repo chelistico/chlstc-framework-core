@@ -1,0 +1,15 @@
+{
+    "name": "chelistico/php-framework-core",
+    "autoload": {
+        "psr-4": {
+            "Chelistico\\PhpFrameworkCore\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "chelistico",
+            "email": "marcelovieyra@hotmail.com"
+        }
+    ],
+    "require": {}
+}
