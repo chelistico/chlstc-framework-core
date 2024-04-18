@@ -6,16 +6,16 @@
  * Time: 09:05 AM
  */
 
-namespace app\core\middlewares;
+namespace chelistico\php-framework-core\middlewares;
 
-use app\core\Application;
-use app\core\exception\ForbiddenException;
+use chelistico\php-framework-core\Application;
+use chelistico\php-framework-core\exception\ForbiddenException;
 
 /**
  * Class AuthMiddleware
  * 
  * @author chelistico <marcelovieyra@hotmail.com>
- * @package app\core\middlewares
+ * @package chelistico\php-framework-core\middlewares
  */
 class AuthMiddleware extends BaseMiddleware
 {

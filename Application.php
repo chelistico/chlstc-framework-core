@@ -1,14 +1,14 @@
 <?php
 
-namespace app\core;
+namespace chelistico\php-framework-core;
 
-use app\core\db\Database;
+use chelistico\php-framework-core\db\Database;
 
 /**
  * Class Application
  * 
  * @author chelistico <marcelovieyra@hotmail.com>
- * @package app\core
+ * @package chelistico\php-framework-core
  */
 
 class Application
@@ -69,17 +69,17 @@ class Application
     }
 
     /**
-     * @return \app\core\Controller
+     * @return \chelistico\php-framework-core\Controller
      */
-    public function getController(): \app\core\Controller
+    public function getController(): \chelistico\php-framework-core\Controller
     {
         return $this->controller;
     }
 
     /**
-     * @param \app\core\Controller $controller
+     * @param \chelistico\php-framework-core\Controller $controller
      */
-    public function setController(\app\core\Controller $controller): void
+    public function setController(\chelistico\php-framework-core\Controller $controller): void
     {
         $this->controller = $controller;
     }

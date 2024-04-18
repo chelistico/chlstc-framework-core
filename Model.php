@@ -1,12 +1,12 @@
 <?php
 
-namespace app\core;
+namespace chelistico\php-framework-core;
 
 /**
  * Class Model
  * 
  * @author chelistico <marcelovieyra@hotmail.com>
- * @package app\core
+ * @package chelistico\php-framework-core
  */
 
 abstract class Model

@@ -1,14 +1,14 @@
 <?php
 
-namespace app\core\form;
+namespace chelistico\php-framework-core\form;
 
-use app\core\Model;
+use chelistico\php-framework-core\Model;
 
 /**
  * Class Form
  * 
  * @author chelistico <marcelovieyra@hotmail.com>
- * @package app\core\form
+ * @package chelistico\php-framework-core\form
  */
 class Form
 {

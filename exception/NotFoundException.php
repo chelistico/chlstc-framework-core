@@ -5,13 +5,13 @@
  * Time: 10:11 AM
  */
 
- namespace app\core\exception;
+ namespace chelistico\php-framework-core\exception;
 
  /**
   * Class NotFoundException
   *
   * @author chelistico <marcelovieyra@hotmail.com>
-  * @package app\core\exception
+  * @package chelistico\php-framework-core\exception
   */
 class NotFoundException extends \Exception
 {

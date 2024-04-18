@@ -5,13 +5,13 @@
  * Time: 09:01 AM
  */
 
- namespace app\core\middlewares;
+ namespace chelistico\php-framework-core\middlewares;
 
  /**
   * Class BaseMiddleware
   * 
   * @author chelistico <marcelovieyra@hotmail.com>
-  * @package app\core\middlewares
+  * @package chelistico\php-framework-core\middlewares
   */
 abstract class BaseMiddleware
 {

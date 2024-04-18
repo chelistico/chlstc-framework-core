@@ -6,15 +6,15 @@
  * Time: 22:37
  */
 
-namespace app\core\form;
+namespace chelistico\php-framework-core\form;
 
-use app\core\Model;
+use chelistico\php-framework-core\Model;
 
 /**
  * Class BaseField
  * 
  * @author chelistico <marcelovieyra@hotmail.com>
- * @package app\core\form
+ * @package chelistico\php-framework-core\form
  */
 abstract class BaseField
 {
@@ -24,7 +24,7 @@ abstract class BaseField
     /**
      * Field constructor.
      * 
-     * @param \app\core\Model $model
+     * @param \chelistico\php-framework-core\Model $model
      * @param string $attribute
      */
     public function __construct(Model $model, string $attribute)

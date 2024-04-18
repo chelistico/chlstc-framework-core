@@ -1,14 +1,14 @@
 <?php
 
-namespace app\core\form;
+namespace chelistico\php-framework-core\form;
 
-use app\core\Model;
+use chelistico\php-framework-core\Model;
 
 /**
  * Class InputField
  * 
  * @author chelistico <marcelovieyra@hotmail.com>
- * @package app\core\form
+ * @package chelistico\php-framework-core\form
  */
 class InputField extends BaseField
 {
@@ -21,7 +21,7 @@ class InputField extends BaseField
     /**
      * InputField constructor.
      * 
-     * @param \app\core\Model $model
+     * @param \chelistico\php-framework-core\Model $model
      * @param string $attribute
      */
     public function __construct(Model $model, string $attribute)

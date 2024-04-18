@@ -2,7 +2,7 @@
     "name": "chelistico/php-framework-core",
     "autoload": {
         "psr-4": {
-            "Chelistico\\PhpFrameworkCore\\": "src/"
+            "chelistico\\php-framework-core\\": "."
         }
     },
     "authors": [

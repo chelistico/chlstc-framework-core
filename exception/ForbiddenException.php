@@ -5,13 +5,13 @@
  * Time: 09:13 AM
  */
 
- namespace app\core\exception;
+ namespace chelistico\php-framework-core\exception;
 
  /**
   * Class ForbiddenException
   *
   * @author chelistico <marcelovieyra@hotmail.com>
-  * @package app\core\exception
+  * @package chelistico\php-framework-core\exception
   */
 class ForbiddenException extends \Exception
 {
