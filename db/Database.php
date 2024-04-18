@@ -1,14 +1,14 @@
 <?php
 
-namespace chelistico\php-framework-core\db;
+namespace chelistico\phpframeworkcore\db;
 
-use chelistico\php-framework-core\Application;
+use chelistico\phpframeworkcore\Application;
 
 /**
  * Class Database
  * 
  * @author chelistico <marcelovieyra@hotmail.com>
- * @package chelistico\php-framework-core\db
+ * @package chelistico\phpframeworkcore\db
  */
 class Database
 {

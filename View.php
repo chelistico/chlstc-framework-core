@@ -5,13 +5,13 @@
  * Time: 21:44
  */
 
- namespace chelistico\php-framework-core;
+ namespace chelistico\phpframeworkcore;
 
  /**
   * Class View
   *
   * @author chelistico <marcelovieyra@hotmail.com>
-  * @package chelistico\php-framework-core
+  * @package chelistico\phpframeworkcore
   */
 class View
 {

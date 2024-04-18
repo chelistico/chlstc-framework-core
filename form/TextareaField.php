@@ -6,13 +6,13 @@
  * Time: 22:54
  */
 
-namespace chelistico\php-framework-core\form;
+namespace chelistico\phpframeworkcore\form;
 
 /**
  * Class TextareaField
  * 
  * @author chelistico <marcelovieyra@hotmail.com>
- * @package chelistico\php-framework-core\form
+ * @package chelistico\phpframeworkcore\form
  */
 class TextareaField extends BaseField
 {

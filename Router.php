@@ -1,14 +1,14 @@
 <?php
 
-namespace chelistico\php-framework-core;
+namespace chelistico\phpframeworkcore;
 
-use chelistico\php-framework-core\exception\NotFoundException;
+use chelistico\phpframeworkcore\exception\NotFoundException;
 
 /**
  * Class Router
  * 
  * @author chelistico <marcelovieyra@hotmail.com>
- * @package chelistico\php-framework-core
+ * @package chelistico\phpframeworkcore
  */
 
 class Router
@@ -20,8 +20,8 @@ class Router
     /**
      * Router constructor
      * 
-     * @param \chelistico\php-framework-core\Request $request
-     * * @param \chelistico\php-framework-core\Respose $respose
+     * @param \chelistico\phpframeworkcore\Request $request
+     * * @param \chelistico\phpframeworkcore\Respose $respose
      */
     public function __construct(Request $request, Response $response)
     {
@@ -53,7 +53,7 @@ class Router
         }
         
         if(is_array($callback)) {
-            /** @var \chelistico\php-framework-core\Controller $controller */
+            /** @var \chelistico\phpframeworkcore\Controller $controller */
             $controller = new $callback[0];
             Application::$app->controller = $controller;
             $controller->action = $callback[1];

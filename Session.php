@@ -1,12 +1,12 @@
 <?php
 
-namespace chelistico\php-framework-core;
+namespace chelistico\phpframeworkcore;
 
 /**
  * Class Session
  * 
  * @author chelistico <marcelovieyra@hotmail.com>
- * @package chelistico\php-framework-core
+ * @package chelistico\phpframeworkcore
  */
 class Session
 {

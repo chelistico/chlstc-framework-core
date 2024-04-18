@@ -1,14 +1,14 @@
 <?php
 
-namespace chelistico\php-framework-core;
+namespace chelistico\phpframeworkcore;
 
-use chelistico\php-framework-core\middlewares\BaseMiddleware;
+use chelistico\phpframeworkcore\middlewares\BaseMiddleware;
 
 /**
  * Class Controller
  * 
  * @author chelistico <marcelovieyra@hotmail.com>
- * @package chelistico\php-framework-core
+ * @package chelistico\phpframeworkcore
  */
 class Controller
 {
@@ -16,7 +16,7 @@ class Controller
     public string $action = '';
 
     /**
-     * @var \chelistico\php-framework-core\middlewares\BaseMiddleware[]
+     * @var \chelistico\phpframeworkcore\middlewares\BaseMiddleware[]
      */
     protected array $middlewares = [];
 
@@ -36,7 +36,7 @@ class Controller
     }
 
     /**
-     * @return \chelistico\php-framework-core\middleware\BaseMiddleware[]
+     * @return \chelistico\phpframeworkcore\middleware\BaseMiddleware[]
      */
     public function getMiddlewares(): array
     {

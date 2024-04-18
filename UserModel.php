@@ -1,14 +1,14 @@
 <?php
 
-namespace chelistico\php-framework-core;
+namespace chelistico\phpframeworkcore;
 
-use chelistico\php-framework-core\db\DbModel;
+use chelistico\phpframeworkcore\db\DbModel;
 
 /**
  * Class UserModel
  * 
  * @author chelistico <marcelovieyra@hotmail.com>
- * @package chelistico\php-framework-core
+ * @package chelistico\phpframeworkcore
  */
 abstract class UserModel extends DbModel
 {

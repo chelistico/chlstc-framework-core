@@ -1,8 +1,8 @@
 {
-    "name": "chelistico/php-framework-core",
+    "name": "chelistico/phpframeworkcore",
     "autoload": {
         "psr-4": {
-            "chelistico\\php-framework-core\\": "."
+            "chelistico\\phpframeworkcore\\": "."
         }
     },
     "authors": [

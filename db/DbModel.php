@@ -1,15 +1,15 @@
 <?php
 
-namespace chelistico\php-framework-core\db;
+namespace chelistico\phpframeworkcore\db;
 
-use chelistico\php-framework-core\Application;
-use chelistico\php-framework-core\Model;
+use chelistico\phpframeworkcore\Application;
+use chelistico\phpframeworkcore\Model;
 
 /**
  * Class DbModel
  * 
  * @author: chelistico <marcelovieyra@hotmail.com>
- * @package: chelistico\php-framework-core\db
+ * @package: chelistico\phpframeworkcore\db
  */
 abstract class DbModel extends Model
 {
